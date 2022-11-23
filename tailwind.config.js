@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         alice: ['alice'],
+        lato: ['lato'],
+        quicksand: ['quicksand'],        
       },
     },
   },
