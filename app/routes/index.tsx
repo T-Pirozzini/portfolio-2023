@@ -3,7 +3,8 @@ import { Link } from "@remix-run/react";
 import { useOptionalUser } from "~/utils";
 
 import { GiNautilusShell } from "react-icons/gi";
-import CombDemo from "../assets/comb-demo.mp4"
+import { GiHockey } from "react-icons/gi";
+import { FaHatWizard } from "react-icons/fa";
 
 export default function Index() {
   const user = useOptionalUser();
@@ -20,37 +21,55 @@ export default function Index() {
         </div>
       </header>    
     
-    <div className="flex flex-col justify-center items-center">
-      <div className="flex justify-start m-4 w-4/5">
-        <div className="flex justify-between text-white m-2 p-2 border-2 border-slate-500 ring-red-400 ring-2 ring-offset-4 rounded-md">
-          <div>
-            <div className="flex items-center">
-              <GiNautilusShell color="#B74F6F" size={48}/>
-              <h3 className="p-2 font-alice text-4xl">Comb</h3>
+      <div className="flex flex-col justify-center items-center w-full text-white">
+
+        <div className="flex justify-start items-start m-4">
+          <div className="flex justify-between m-2 ">
+            <div className="">
+              <div className="flex items-center p-2">
+                <GiNautilusShell color="#B74F6F" size={48}/>
+                <h3 className="p-2 font-alice text-4xl">Comb</h3>
+              </div>        
+              <p className="text-md italic">Your Shellfish Harvesting Companion</p>
+            </div>
+            <div className="">
+              <video src="../assets/comb-demo.mp4" width="400" preload="auto" autoPlay loop></video>
             </div>        
-            <p className="text-md italic">Your Shellfish Harvesting Companion</p>
           </div>
-          <div className="">
-            <video src="../assets/comb-demo.mp4" width="400" preload="auto" autoPlay loop></video>
+        </div>
+
+        <div className="flex m-4 max-w-2xl items-end justify-end h-2/5">
+          <div className="flex itmes-center justify-between">
+            <div className="">
+              <video src="../assets/shift-wizard-demo.mp4" width="600" preload="auto" autoPlay muted loop></video>
+            </div>        
+            <div>
+              <div className="flex items-center">
+                <FaHatWizard color="#3143F2" size={48}/>
+                <h3 className="p-2 font-alice text-4xl">Shift Wizard</h3>
+              </div>        
+              <p className="text-md italic pb-2">Travel the board while absorbing elemental powers.</p>
+              <p className="text-md italic">Cast spells to manipulate your path to the ultimate power crystal!</p>
+            </div>
           </div>        
         </div>
-      </div>
 
-      <div className="flex m-4 w-4/5 justify-end">
-        <div className="flex justify-between text-white m-2 p-2 border-2 border-slate-500 ring-red-400 ring-2 ring-offset-4 rounded-md">
-          <div>
-            <div className="flex items-center">
-              <GiNautilusShell color="#B74F6F" size={48}/>
-              <h3 className="p-2 font-alice text-4xl">Shift Wizard</h3>
+        <div className="flex m-4 max-w-2xl items-end justify-end h-2/5">
+          <div className="flex itmes-center justify-between">
+            <div className="">
+              <video src="../assets/hockey-dashboard-demo.mp4" width="600" preload="auto" autoPlay muted loop></video>
             </div>        
-            <p className="text-md italic w-fit">Travel the board while absorbing elemental powers.</p>
-            <p className="text-md italic w-fit">Cast spells to manipulate your path to the ultimate power crystal!</p>
-          </div>
-          <div className="">
-            <video src="../assets/comb-demo.mp4" width="400" preload="auto" autoPlay loop></video>
+            <div>
+              <div className="flex items-center">
+                <GiHockey color="#1C9F54" size={48}/>
+                <h3 className="p-2 font-alice text-4xl">Shift Wizard</h3>
+              </div>        
+              <p className="text-md italic pb-2">Travel the board while absorbing elemental powers.</p>
+              <p className="text-md italic">Cast spells to manipulate your path to the ultimate power crystal!</p>
+            </div>
           </div>        
-        </div>        
-      </div> 
+        </div>
+        
       </div>
 
     </div>
