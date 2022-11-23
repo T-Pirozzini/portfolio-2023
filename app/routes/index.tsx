@@ -69,7 +69,7 @@ export default function Index() {
                 </div>
               </div>        
             </div>
-            <div className="">
+            <div className="pt-4">
               <video src="../assets/comb-demo.mp4" width="400" preload="auto" autoPlay loop></video>
             </div>        
           </div>
