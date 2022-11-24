@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        alice: ['alice'],
-        lato: ['lato'],
-        quicksand: ['quicksand'],        
+        alice: ['alice', 'serif'],
+        lato: ['lato', 'sans-serif'],
+        quicksand: ['quicksand', 'sans-serif'],
+        vt323: ["vt323", 'monospace'],
+        oswald: ["oswald", "sans-serif"],        
       },
     },
   },
