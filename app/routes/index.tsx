@@ -24,8 +24,7 @@ export default function Index() {
             <div className="text-4xl font-thin font-quicksand ">Full Stack Developer</div>
             <div className="text-4xl font-thin">UI/UX Designer</div>
           </div>
-        </div>
-        {/* <div className="flex justify-center items-center text-xl space-x-8 mx-6 text-white"> */}
+        </div>        
         <Navbar>
           <Nav className="flex flex-row text-2xl space-x-8 text-white m-8">
             <Nav.Menu  className="hover:text-blue-300"title="Projects">
