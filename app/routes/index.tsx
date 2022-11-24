@@ -33,6 +33,7 @@ export default function Index() {
       </header>      
     
       <div className="flex flex-col items-start text-white">
+
         <div className="self-start m-10">
           <div className="flex justify-between m-2">
             <div className="m-4">
@@ -54,7 +55,9 @@ export default function Index() {
               </div>        
             </div>
             <div className="pt-4">
-              <video src="../assets/comb-demo.mp4" width="400" preload="auto" autoPlay loop></video>
+              <video  width="400" preload="auto" autoPlay loop muted>
+                <source src="../assets/comb-demo.mp4" type="video/mp4" />
+              </video>
             </div>
             <div className="w-1/3 self-center pb-6">
               <div className="font-bold text-center text-lg">Why Programming?</div>
@@ -63,18 +66,18 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="self-end m-10">
-          <div className="flex">
+        <div className="self-end m-10 mt-24 mb-24">
+          <div className="flex justify-between m-2">
             <div className="w-1/3 self-center pb-6">
               <div className="font-bold text-center text-lg">Early Passion</div>
               <div className="p-2 text-center">While I was younger I would make websites with Netscape Navigator, animate in Macromedia Flash and build custom scenarios in Age of Empires 2, but after high school I pursued my other interest, athletics. This is a story of rekindling passion.</div> 
             </div>
             <div className="m-8">
-              <video src="../assets/shift-wizard-arcade-demo.mp4" width="400" preload="auto" autoPlay muted loop></video>
+              <video src="../assets/shift-wizard-arcade-demo.mp4" width="400" autoPlay muted loop></video>
             </div>        
-            <div>
-              <div className="flex items-center mt-6">
-                <h3 className="p-4 font-alice text-4xl font-vt323">Shift Wizard</h3>
+            <div className="flex flex-col m-4">
+              <div className="flex mt-6">
+                <h3 className="p-4 pl-0 text-4xl font-vt323">Shift Wizard</h3>
                 <FaHatWizard color="#3143F2" size={48}/>
               </div>        
               <p className="text-lg italic">Travel the board while absorbing elemental powers.</p>
@@ -97,10 +100,10 @@ export default function Index() {
 
         <div className="self-start m-10">
           <div className="flex justify-between m-2">
-            <div>
+            <div className="m-4">
               <div className="flex items-center p-2">
                 <GiHockey color="9B6C19" size={48}/>
-                <h3 className="p-4 font-alice text-4xl font-oswald">Hockey Dashboard</h3>
+                <h3 className="p-4 text-4xl font-oswald">Hockey Dashboard</h3>
               </div>        
               <p className="text-lg italic pb-4">I updated my local hockey leagues website</p>
               <div className="text-md pb-4"><span>TECH: </span>HTML/CSS/JS/React/Firebase</div>
@@ -114,7 +117,7 @@ export default function Index() {
                 </div>              
             </div>
             <div className="m-4">
-              <video src="../assets/hockey-dashboard-demo.mp4" width="600" preload="auto" autoPlay muted loop></video>
+              <video src="../assets/hockey-dashboard-demo.mp4" width="600" autoPlay muted loop></video>
             </div>
             <div className="w-1/3 self-center pb-6">
               <div className="font-bold text-center text-lg">My Journey...</div>
