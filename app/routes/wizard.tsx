@@ -60,7 +60,7 @@ export default function Wizard() {
         <div className="w-3/4 self-center">
           <video src="../assets/shift-wizard-arcade-demo.mp4" width="" autoPlay muted loop></video>
         </div>
-        <a href="https://gm48.net/"><div className="flex justify-center items-center text-lg hover:animate-pulse p-4">
+        <a href="https://gm48.net/"><div className="flex justify-center items-center text-md text-center hover:animate-pulse p-4">
           <FaHatWizard color="#3143F2" size={48}/>
           <div>My original game submission can be viewed here</div>
           <GiWizardStaff color="#9B6C19" size={48}/>
