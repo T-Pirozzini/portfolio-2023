@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Comb() {
   return (
-    <div className='bg-black font-quicksand text-white h-auto'>
+    <div className='bg-black font-quicksand text-white'>
       <Nav />
       <div className="font-alice text-6xl text-center border-t-2 m-6 p-4">Comb</div>
 

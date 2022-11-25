@@ -4,7 +4,7 @@ import { FaHatWizard } from "react-icons/fa";
 
 export default function Wizard() {
   return (
-    <div className='bg-black font-quicksand text-white h-auto'>
+    <div className='bg-black font-quicksand text-white'>
       <Nav />
       <div className="font-vt323 text-6xl text-center border-t-2 m-10 p-4">Shift Wizard</div>
       <div className="flex justify-center m-4">

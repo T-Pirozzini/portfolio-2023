@@ -2,7 +2,7 @@ import Nav from "../nav"
 
 export default function Hockey() {
   return (
-    <div className="bg-black font-quicksand text-white h-auto">
+    <div className="bg-black font-quicksand text-white">
       <Nav />
       <div className="font-oswald text-6xl text-center border-t-2 m-6 p-4">Nanaimo Hockey League</div>
 

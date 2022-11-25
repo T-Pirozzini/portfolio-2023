@@ -27,9 +27,9 @@ export default function nav() {
               <Link to="/wizard"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Shift Wizard</Nav.Item></Link>
               <Link to="/hockey"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Hockey App</Nav.Item></Link>
             </Nav.Menu>           
-            <Nav.Item className="hover:text-blue-300"><a href="https://www.canva.com/design/DAFSipFYtMw/mjx-WAPqeDIpldOUOlGjnQ/view?utm_content=DAFSipFYtMw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"><div>Resume</div></a></Nav.Item>
-            <Nav.Item className="hover:text-blue-300"><a href="https://github.com/T-Pirozzini"><FaGithub size={32}/></a></Nav.Item>
-            <Nav.Item className="hover:text-blue-300"><a href="https://www.linkedin.com/in/travis-pirozzini-2522b5115/"><FaLinkedin size={32} /></a></Nav.Item>          
+            <Nav.Item href="https://www.canva.com/design/DAFSipFYtMw/mjx-WAPqeDIpldOUOlGjnQ/view?utm_content=DAFSipFYtMw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="hover:text-blue-300"><div>Resume</div></Nav.Item>
+            <Nav.Item href="https://github.com/T-Pirozzini" className="hover:text-blue-300"><FaGithub size={32}/></Nav.Item>
+            <Nav.Item href="https://www.linkedin.com/in/travis-pirozzini-2522b5115/" className="hover:text-blue-300"><FaLinkedin size={32} /></Nav.Item>          
           </Nav>
         </Navbar>        
       </div>      
