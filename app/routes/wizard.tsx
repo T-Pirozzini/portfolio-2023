@@ -8,7 +8,7 @@ export default function Wizard() {
       <Nav />
       <div className="font-vt323 text-6xl text-center border-t-2 m-10 p-4">Shift Wizard</div>
       <div className="flex justify-center m-4">
-        <div className="text-center w-3/4">An early goal of mine when I first started out on my programming journey was to participate in a GameJam. My goal came true on the weekend of October 14-16th, 2022 when I entered the GM48 competition. A GameJam is a game building competition where a theme is selected and then an individual or team has one weekend to complete and submit a game (somewhat) functional game that also includes original art and sound. <br></br><br></br> GameMaker Studio 2 uses a language similar to Javascript, so I was able to apply my past year of programming knowledge to the task. A friend of mine, Haydn, was a huge asset and produced all of the artwork that you see below using Aseprite. <br></br><br></br> This was such a challenging, but rewarding experience and I am so excited to show off my developing skills at the next competition!</div>
+        <div className="w-3/4">An early goal of mine when I first started out on my programming journey was to participate in a GameJam. My goal came true on the weekend of October 14-16th, 2022 when I entered the GM48 competition. A GameJam is a game building competition where a theme is selected and then an individual or team has one weekend to complete and submit a game (somewhat) functional game that also includes original art and sound. <br></br><br></br> GameMaker Studio 2 uses a language similar to Javascript, so I was able to apply my past year of programming knowledge to the task. A friend of mine, Haydn, was a huge asset and produced all of the artwork that you see below using Aseprite. <br></br><br></br> This was such a challenging, but rewarding experience and I am so excited to show off my developing skills at the next competition!</div>
       </div>
 
       <div className="grid grid-cols-1 m-10 gap-12 md:grid-cols-2 lg:grid-cols-3 border-t-2 p-4">
@@ -60,11 +60,11 @@ export default function Wizard() {
         <div className="w-3/4 self-center">
           <video src="../assets/shift-wizard-arcade-demo.mp4" width="" autoPlay muted loop></video>
         </div>
-        <div className="flex justify-center items-center text-lg animate-pulse">
+        <a href="https://gm48.net/"><div className="flex justify-center items-center text-lg hover:animate-pulse p-4">
           <FaHatWizard color="#3143F2" size={48}/>
           <div>My original game submission can be viewed here</div>
           <GiWizardStaff color="#9B6C19" size={48}/>
-        </div>
+        </div></a>
         
       </div>
 

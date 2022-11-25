@@ -21,7 +21,7 @@ export default function Index() {
             <div className="m-4">
               <div className="flex items-center p-2">
                 <GiNautilusShell color="#B74F6F" size={48}/>
-                <h3 className="p-4 font-alice text-4xl">Comb</h3>
+                <h3 className="p-4 font-alice text-5xl">Comb</h3>
               </div>
               <div className="max-w-xl">
                 <p className="text-lg italic pb-4">Your Shellfish Harvesting Companion</p>
@@ -63,7 +63,7 @@ export default function Index() {
             </div>        
             <div className="flex flex-col m-4">
               <div className="flex mt-6">
-                <h3 className="p-4 pl-0 text-4xl font-vt323">Shift Wizard</h3>
+                <h3 className="p-4 pl-0 text-5xl font-vt323">Shift Wizard</h3>
                 <FaHatWizard color="#3143F2" size={48}/>
               </div>        
               <p className="text-lg italic">Travel the board while absorbing elemental powers.</p>

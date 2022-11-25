@@ -6,16 +6,20 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function nav() {
   return (
     <div className="h-28 bg-black-500 flex justify-between text-white mb-10 pb-6">
-        <div className="flex">
+        <Link to="/" className="flex justify-between hover:animate-pulse cursor-pointer">
+          <div className="flex">        
           <div className="flex">
             <img src="../assets/emo.png" alt="profile-logo" className="m-2 border-2 rounded-full" />
             <div className="text-6xl self-center font-normal font-quicksand">Travis Pirozzini</div>
           </div>
+       
           <div className="pl-6 self-end">
             <div className="text-4xl font-thin font-quicksand ">Full Stack Developer</div>
             <div className="text-4xl font-thin">UI/UX Designer</div>
           </div>
-        </div>        
+        </div>
+        </Link>
+                
         <Navbar>
           <Nav className="flex flex-row text-2xl space-x-8 text-white m-8">
             <Nav.Menu  className="hover:text-blue-300"title="Projects">
