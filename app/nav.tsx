@@ -10,17 +10,17 @@ export default function nav() {
           <div className="">        
             <div className="flex">
               <img src="../assets/emo.png" alt="profile-logo" className="w-1/2 border-2 rounded-full" />
-              <div className="text-3xl lg:text-6xl font-normal font-quicksand p-2">Travis Pirozzini</div>
+              <div className="text-3xl self-end md:text-6xl lg:text-6xl font-normal font-quicksand p-2">Travis Pirozzini</div>
             </div>       
             <div className="self-end">
               <div className="md:text-2xl lg:text-4xl font-thin font-quicksand ">Full Stack Developer</div>
-              <div className="lg:text-4xl font-thin">UI/UX Designer</div>
+              <div className="md:text-2xl lg:text-4xl font-thin">UI/UX Designer</div>
             </div>
           </div>
         </Link>
                 
         <Navbar>
-          <Nav className="flex flex-col items-end justify-end space-y-4 relative">
+          <Nav className="flex flex-col items-end space-y-2 relative">
             <div className="flex space-x-4">
               <Nav.Item href="https://github.com/T-Pirozzini" className="hover:text-blue-300"><FaGithub size={32}/></Nav.Item>
               <Nav.Item href="https://www.linkedin.com/in/travis-pirozzini-2522b5115/" className="hover:text-blue-300"><FaLinkedin size={32} /></Nav.Item>          
