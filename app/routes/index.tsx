@@ -107,7 +107,7 @@ export default function Index() {
       </div>
 
 
-      <div className="flex flex-col items-center justify-center text-white lg:pt-12">
+      <div className="flex flex-col items-center justify-center text-white lg:pt-24">
 
         <div className="grid grid-cols-1 items-center justify-center m-2 lg:grid-cols-3">
 
