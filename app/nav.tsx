@@ -25,7 +25,7 @@ export default function nav() {
               <Nav.Item href="https://github.com/T-Pirozzini" className="hover:text-blue-300"><FaGithub size={32}/></Nav.Item>
               <Nav.Item href="https://www.linkedin.com/in/travis-pirozzini-2522b5115/" className="hover:text-blue-300"><FaLinkedin size={32} /></Nav.Item>          
             </div>
-            <Nav.Item href="https://www.canva.com/design/DAFSipFYtMw/mjx-WAPqeDIpldOUOlGjnQ/view?utm_content=DAFSipFYtMw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="text-lg hover:text-blue-300 lg:text-2xl"><div>Resume</div></Nav.Item>
+            <Nav.Item href="https://www.canva.com/design/DAFfFtRCaE4/VfaF_RbI8jRvQoqwJ5rNGQ/view?utm_content=DAFfFtRCaE4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="text-lg hover:text-blue-300 lg:text-2xl"><div>Resume</div></Nav.Item>
             <div>
               <Nav.Menu  className="text-lg hover:text-blue-300 lg:text-2xl" title="Projects">
                 <Link to="/comb"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Comb</Nav.Item></Link>
