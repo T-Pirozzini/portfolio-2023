@@ -13,6 +13,7 @@ module.exports = {
         varela: ['Varela Round', 'sans-serif'],  
         exo: ['Exo 2', 'sans-serif'],
         autour: ['Autour One', 'cursive'],
+        specialElite: ['Special Elite', 'cursive'],
       },
     },
   },
