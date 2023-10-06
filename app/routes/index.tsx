@@ -3,7 +3,7 @@ import { Link } from "@remix-run/react";
 import { useOptionalUser } from "~/utils";
 
 import { GiNautilusShell, GiHockey } from "react-icons/gi";
-import { FaHatWizard, FaGem } from "react-icons/fa";
+import { FaHatWizard, FaGem, FaSeedling } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 import { IoNavigateOutline } from "react-icons/io5"
 
@@ -16,6 +16,47 @@ export default function Index() {
     <div className="bg-black font-quicksand">    
     <Nav />
 
+    <div className="flex flex-col items-center justify-center text-white lg:pt-12">
+
+<div className="grid grid-cols-1 m-2 lg:grid-cols-3 lg:pt-12">
+
+  {/* gird-col-1 */}
+  <div className="self-center pb-6">
+    <div className="font-bold text-center text-lg">Early Passion</div>
+    <div className="text-center">In my youth, I would create websites with Netscape Navigator, animate in Macromedia Flash and build custom scenarios in Age of Empires 2, but after high school I pursued my other interest, athletics. This is a story of rekindling passion.</div> 
+  </div>
+
+  {/* grid-col-2 */}
+  <div className="m-4 border-t-2 flex flex-col justify-center items-center lg:border-t-0 lg:flex-row">
+    <div className="p-4">
+      <video src="../assets/shift-wizard-arcade-demo.mp4" width="400" autoPlay muted loop></video>
+    </div> 
+  </div>
+
+  {/* grid-col-3*/}
+  <div className="flex flex-col justify-center items-center">
+    <div className="flex mt-6">
+      <h3 className="p-4 pl-0 text-4xl font-autour">Forager</h3>
+      <FaSeedling color="#80F860" size={48}/>
+    </div>        
+    <p className="text-sm italic pb-4 lg:text-xl">Travel the board while absorbing elemental powers. Cast spells to obtain the ultimate power crystal!</p>
+    <div className="text-md pb-4"><span>TECH: </span>GameMaker Studio 2</div>
+    <Link to="/wizard">
+      <div className="flex items-center group cursor-pointer">
+        <IoNavigateOutline size={32} className="group-hover:animate-ping" />
+        <div className="p-2">Go to project page</div>
+      </div>
+    </Link>
+    <a href="https://github.com/T-Pirozzini/Shift-Wizard---GM48">
+      <div className="flex items-center group cursor-pointer">
+        <BiCodeAlt size={32} className="group-hover:animate-ping" />                
+        <div className="pl-2">See the code</div>
+      </div>
+    </a>
+  </div>          
+
+</div>        
+</div>
 
       <div className="flex flex-col items-center justify-center text-white lg:m-4">
 
