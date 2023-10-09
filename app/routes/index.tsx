@@ -213,7 +213,7 @@ export default function Index() {
     </div>        
     <p className="text-sm italic pb-4 lg:text-xl">My second GameJam! Theme: Delivery. Fight your way through the realm of limbo between life and death for a second chance at life! Deliver your soul back to your body.</p>
     <div className="text-md pb-4"><span>TECH: </span>GameMaker Studio 2 (pair programmed with Richard) - assets made by Haydn in Aseprite</div>
-    <Link to="/wizard">
+    <Link to="/soulo">
       <div className="flex items-center group cursor-pointer">
         <IoNavigateOutline size={32} className="group-hover:animate-ping" />
         <div className="p-2">Go to project page</div>
