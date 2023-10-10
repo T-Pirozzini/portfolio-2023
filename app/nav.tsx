@@ -28,6 +28,9 @@ export default function nav() {
             <Nav.Item href="https://www.canva.com/design/DAFfFtRCaE4/VfaF_RbI8jRvQoqwJ5rNGQ/view?utm_content=DAFfFtRCaE4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="text-lg hover:text-blue-300 lg:text-2xl"><div>Resume</div></Nav.Item>
             <div>
               <Nav.Menu  className="text-lg hover:text-blue-300 lg:text-2xl" title="Projects">
+              <Link to="/rts"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">R.T.S.</Nav.Item></Link>
+              <Link to="/forager"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Forager</Nav.Item></Link>
+              <Link to="/soulo"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Soulo</Nav.Item></Link>
                 <Link to="/comb"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Comb</Nav.Item></Link>
                 <Link to="/wizard"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Shift Wizard</Nav.Item></Link>
                 <Link to="/hockey"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Hockey App</Nav.Item></Link>

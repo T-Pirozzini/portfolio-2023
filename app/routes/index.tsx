@@ -33,7 +33,7 @@ export default function Index() {
           <p className="text-md italic pb-4 lg:text-xl">Join your friends in some friendly competition with this exercise motivator!</p>
           <div className="text-sm pb-4"><span>TECH: </span>Flutter/Firebase/Strava API</div>
         </div>
-        <Link to="/comb" className="flex group items-start cursor-pointer">                  
+        <Link to="/rts" className="flex group items-start cursor-pointer">                  
             <IoNavigateOutline size={32} className="group-hover:animate-ping" />
             <div className="p-2">Go to project page</div>
         </Link>
@@ -108,7 +108,7 @@ export default function Index() {
     <p className="text-sm italic pb-4 lg:text-xl">An expanded version of Comb. Drop markers, save and share your favourite foraging locations with friends or the public community board.</p>
     <div className="text-md pb-4"><span>TECH: </span>Flutter/Firebase/Google Maps API</div>
     <div>
-    <Link to="/wizard">
+    <Link to="/forager">
       <div className="flex items-center group cursor-pointer">
         <IoNavigateOutline size={32} className="group-hover:animate-ping" />
         <div className="p-2">Go to project page</div>
