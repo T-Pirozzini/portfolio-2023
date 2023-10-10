@@ -18,7 +18,6 @@ export default function Index() {
     <div className="bg-black font-quicksand">    
     <Nav />
 
-
     <div className="flex flex-col items-center justify-center text-white lg:m-4">
     <div className="grid grid-cols-1 items-center justify-center m-2 lg:grid-cols-3 lg:pt-12">
 
@@ -27,13 +26,13 @@ export default function Index() {
       <div>
         <div className="flex items-center justify-center">
           <FcSportsMode color="#B74F6F" size={48}/>
-          <h3 className="p-4 font-specialElite text-5xl">Ride.Tide.Stride</h3>
+          <h3 className="p-4 font-specialElite text-3xl">Ride.Tide.Stride</h3>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className="text-md italic pb-4 lg:text-xl">Join your friends in some friendly competition with this exercise motivator!</p>
           <div className="text-sm pb-4"><span>TECH: </span>Flutter/Firebase/Strava API</div>
         </div>
-        <Link to="/comb" className="flex group items-start cursor-pointer">                  
+        <Link to="/rts" className="flex group items-start cursor-pointer">                  
             <IoNavigateOutline size={32} className="group-hover:animate-ping" />
             <div className="p-2">Go to project page</div>
         </Link>
@@ -80,7 +79,7 @@ export default function Index() {
   </div>
 </div> 
 
-    <div className="flex flex-col items-center justify-center text-white lg:pt-12">
+<div className="flex flex-col items-center justify-center text-white lg:pt-12">
 
 <div className="grid grid-cols-1 m-2 lg:grid-cols-3 lg:pt-12">
 
@@ -108,7 +107,7 @@ export default function Index() {
     <p className="text-sm italic pb-4 lg:text-xl">An expanded version of Comb. Drop markers, save and share your favourite foraging locations with friends or the public community board.</p>
     <div className="text-md pb-4"><span>TECH: </span>Flutter/Firebase/Google Maps API</div>
     <div>
-    <Link to="/wizard">
+    <Link to="/forager">
       <div className="flex items-center group cursor-pointer">
         <IoNavigateOutline size={32} className="group-hover:animate-ping" />
         <div className="p-2">Go to project page</div>
@@ -213,7 +212,7 @@ export default function Index() {
     </div>        
     <p className="text-sm italic pb-4 lg:text-xl">My second GameJam! Theme: Delivery. Fight your way through the realm of limbo between life and death for a second chance at life! Deliver your soul back to your body.</p>
     <div className="text-md pb-4"><span>TECH: </span>GameMaker Studio 2 (pair programmed with Richard) - assets made by Haydn in Aseprite</div>
-    <Link to="/wizard">
+    <Link to="/soulo">
       <div className="flex items-center group cursor-pointer">
         <IoNavigateOutline size={32} className="group-hover:animate-ping" />
         <div className="p-2">Go to project page</div>
