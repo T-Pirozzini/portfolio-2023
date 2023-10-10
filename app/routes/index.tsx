@@ -18,7 +18,6 @@ export default function Index() {
     <div className="bg-black font-quicksand">    
     <Nav />
 
-
     <div className="flex flex-col items-center justify-center text-white lg:m-4">
     <div className="grid grid-cols-1 items-center justify-center m-2 lg:grid-cols-3 lg:pt-12">
 
@@ -27,7 +26,7 @@ export default function Index() {
       <div>
         <div className="flex items-center justify-center">
           <FcSportsMode color="#B74F6F" size={48}/>
-          <h3 className="p-4 font-specialElite text-5xl">Ride.Tide.Stride</h3>
+          <h3 className="p-4 font-specialElite text-3xl">Ride.Tide.Stride</h3>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className="text-md italic pb-4 lg:text-xl">Join your friends in some friendly competition with this exercise motivator!</p>
@@ -80,7 +79,7 @@ export default function Index() {
   </div>
 </div> 
 
-    <div className="flex flex-col items-center justify-center text-white lg:pt-12">
+<div className="flex flex-col items-center justify-center text-white lg:pt-12">
 
 <div className="grid grid-cols-1 m-2 lg:grid-cols-3 lg:pt-12">
 
