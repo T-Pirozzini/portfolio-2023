@@ -14,6 +14,8 @@ module.exports = {
         exo: ['Exo 2', 'sans-serif'],
         autour: ['Autour One', 'cursive'],
         specialElite: ['Special Elite', 'cursive'],
+        'pathway-gothic-one': ['Pathway Gothic One', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
       },
     },
   },

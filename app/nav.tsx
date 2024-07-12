@@ -12,8 +12,8 @@ export default function nav() {
               <img src="../assets/emo.png" alt="profile-logo" className="w-1/2 border-2 rounded-full md:w-1/3 lg:w-24" />
               <div className="text-3xl self-end md:text-6xl font-normal font-quicksand p-2 lg:text-7xl">Travis Pirozzini</div>
             </div>       
-            <div className="lg:flex lg:flex-col lg:items-end lg:justify-start lg:col-span-1">
-              <div className="md:text-2xl lg:text-4xl lg:text-end font-thin font-quicksand ">Full Stack Developer</div>
+            <div className="lg:flex lg:flex-col lg:items-center lg:justify-start lg:col-span-1">
+              <div className="md:text-2xl lg:text-4xl lg:text-end font-thin font-quicksand ">Mobile Developer</div>
               <div className="md:text-2xl lg:text-4xl lg:text-end font-thin">UI/UX Designer</div>
             </div>
           </div>
@@ -25,11 +25,13 @@ export default function nav() {
               <Nav.Item href="https://github.com/T-Pirozzini" className="hover:text-blue-300"><FaGithub size={32}/></Nav.Item>
               <Nav.Item href="https://www.linkedin.com/in/travis-pirozzini-2522b5115/" className="hover:text-blue-300"><FaLinkedin size={32} /></Nav.Item>          
             </div>
-            <Nav.Item href="https://www.canva.com/design/DAFfFtRCaE4/VfaF_RbI8jRvQoqwJ5rNGQ/view?utm_content=DAFfFtRCaE4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="text-lg hover:text-blue-300 lg:text-2xl"><div>Resume</div></Nav.Item>
+            <Nav.Item href="https://flowcv.com/resume/1tt66win4k" className="text-lg hover:text-blue-300 lg:text-2xl"><div>Resume</div></Nav.Item>
             <div>
               <Nav.Menu  className="text-lg hover:text-blue-300 lg:text-2xl" title="Projects">
               <Link to="/rts"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">R.T.S.</Nav.Item></Link>
               <Link to="/forager"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Forager</Nav.Item></Link>
+              <Link to="/gemini"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Gemini Mobile</Nav.Item></Link>
+              <Link to="/hpc"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">HPC Ltd. Mobile</Nav.Item></Link>
               <Link to="/soulo"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Soulo</Nav.Item></Link>
                 <Link to="/comb"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Comb</Nav.Item></Link>
                 <Link to="/wizard"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Shift Wizard</Nav.Item></Link>

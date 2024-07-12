@@ -64,9 +64,8 @@ export default function Index() {
     {/* grid-col-2 */}
     <div className="flex justify-center">
       <div className="pt-4">
-        <video  width="300" preload="auto" autoPlay loop muted>
-        {/* <img src="../assets/rts_demo_july2024gif.gif" width="300" alt="Demo GIF" /> */}
-          <source src="../assets/rts_demo_july2024.mp4" type="video/mp4"/>
+        <video  width="300" preload="auto" autoPlay loop muted>        
+          <source src="../assets/rts_demo_july_2024.mp4" type="video/mp4"/>
         </video>
       </div> 
     </div>        
