@@ -36,6 +36,7 @@ export default function nav() {
                 <Link to="/comb"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Comb</Nav.Item></Link>
                 <Link to="/wizard"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Shift Wizard</Nav.Item></Link>
                 <Link to="/hockey"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">Hockey App</Nav.Item></Link>
+                <Link to="/northarrow"><Nav.Item className="text-sm text-white hover:text-blue-300 cursor-pointer">North Arrow Mobile</Nav.Item></Link>
               </Nav.Menu>         
             </div>
           </Nav>
